@@ -1,0 +1,44 @@
+.abtus{
+	overflow-x: hidden;
+	/* background-color: rgb(66, 66, 66); */
+	background: url('../media/abt.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+.abt {
+	max-width: 800px;
+	margin: 20px auto;
+	margin-top: 10%;
+	padding: 20px;
+	/* background-color: #fff; */
+	backdrop-filter: blur(2px);
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+	border: 2px solid black;
+}
+p {
+	font-weight:bold;
+	color: black;
+	line-height: 1.6;
+}
+.head{
+	color: aliceblue;
+	font-weight: 1000;
+}
+.contact{
+	justify-content: center;
+	color: aliceblue;
+	background-color: rgb(21, 20, 20);
+	max-width: 90%;
+	margin-left:5%;
+	border-radius: 10px;
+}
+.para{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+}
+footer {
+	margin-top: 20px;
+	text-align: center;
+	color: #888;
+}

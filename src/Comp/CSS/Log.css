@@ -1,0 +1,142 @@
+/* CSS Code */
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	align-items: center;
+	justify-content: center;
+	max-height: 100vh;
+	margin: 0;
+}
+
+.logcontainer {
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 100vh;
+	display: flex;
+	background: url('../media/loginbg.jpg') no-repeat center center fixed;
+	background-size:cover;
+}
+
+
+.form {
+	padding: 20px;
+	border-radius: 50px;
+	box-shadow: 0 0 50px rgb(0, 0, 0);
+	background-color: #ffffff49;
+	/* backdrop-filter: blur(3px); */
+	text-align: center;
+	width: 25%;
+	height: max-content;
+	color: #ffffff;
+	transition: transform 0.3s ease-in-out;
+	position: fixed;
+	/* top:30%; */
+	/* left:37%; */
+}
+.form input{
+	background-color: transparent;
+}
+.form.active {
+	transform: translate(-50%, -50%) scale(1.05);
+}
+
+.h2 {
+	margin-bottom: 20px;
+	margin-left: 35%;
+	width:30%;
+	color: #000000;
+	transition: color 0.3s ease-in-out;
+	border-radius: 50px;
+	font-family: serif;
+}
+
+.form.active h2 {
+	color: #3498db;
+}
+
+.input {
+	color: #000000;
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: border-color 0.3s ease-in-out;
+}
+
+.input:focus {
+	border-color: #3498db;
+}
+
+.logbutton {
+	background-color: #000000;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	width: 30%;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+	font-size: 16px;
+	border-radius: 50px;
+}
+
+.logbutton:hover {
+	background-color: #ffffff;
+	color: #000000;
+	transform: scale(1.01);
+	border-color: #000000;
+	border-width: 2px;
+}
+
+.switch {
+	background-color: #0000005d;
+	color: #ffffff;
+	padding: 10px;
+	cursor: pointer;
+	width: auto;
+	margin: 10px 0;
+	font-size: 16px;
+	border-radius: 50px;
+	transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.switch:hover {
+	background-color: #000000;
+	transform: scale(1.05);
+	border-width: 3px;
+}
+form.error {
+	animation: shake 0.5s;
+}
+.alink{
+	position: fixed;
+	width: 3%;
+	height: fit-content;
+}
+.aimg{
+	background-color: #000000;
+	position: fixed;
+	border-radius: 50%;
+	width:5%;
+	height:auto;
+	rotate: -30deg;
+	/* margin-left: 40%; */
+	top: 2%;
+	right: 2%;
+	cursor: pointer;
+}
+
+@keyframes shake {
+	0%, 100% {
+	transform: translateX(0);
+	}
+	10%, 30%, 50%, 70%, 90% {
+	transform: translateX(-10px);
+	}
+	20%, 40%, 60%, 80% {
+	transform: translateX(10px);
+	}
+}

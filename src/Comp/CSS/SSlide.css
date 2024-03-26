@@ -1,0 +1,67 @@
+.bsslide{
+    position: relative;
+    /* width:0%; */
+    height: 370px;
+    overflow: hidden;
+    justify-items: center;
+}
+.scard{
+    position: absolute;
+    width: 17vw;
+    height:320px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.849);
+    border-radius: 10%;
+    padding: 20px;
+    transition: 0.5s;
+    left: 32vw;
+    top:0;
+    display: flex;
+    flex-direction: column;
+}
+#Snext, #Sprev{
+    position: absolute;
+    top:40%;
+    color: rgb(15, 102, 22);
+    background-color: transparent;
+    border-color: rgb(22, 85, 33);
+    border-radius: 50px;
+    font-size: xxx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left:15vw;
+    cursor: pointer;
+}
+#Snext, #Sprev:hover{
+    border-width: 2px;
+}
+#Snext{
+    left:unset;
+    right:15vw;
+}
+.pic{
+    width:90%;
+    height:70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20%;
+    overflow:hidden ;
+}
+.spic{
+    width:100%;
+    height:100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20%;
+}
+#sn{
+    color: #000000;
+    /* background-color: #2e7f85; */
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+    border-radius: 50px;
+}

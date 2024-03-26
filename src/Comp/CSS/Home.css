@@ -1,0 +1,65 @@
+.homecontainer{
+    background: url('../media/bgpic1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.a{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+}
+.welcome{
+    margin-top: 7%;
+    margin-left: 3%;
+    height: fit-content;
+    max-width: 60%;
+    color: #ffffff;
+    border-color: rgb(255, 255, 255);
+    border: 2px solid;
+    background-color: rgba(11, 34, 54, 0.404);
+    border-radius: 50px;
+    /* backdrop-filter: blur(50px); */
+    animation: welcomereveal 2.5s ease-out;
+}
+.welcome h1{
+    font-size: 4vh;
+    font-size: 2vw;
+}
+.welcome h2{
+    font-size: 3.5vh;
+}
+.hpara{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 2vh;
+    font-size: 1vw;
+}
+.hfoot{
+    color: aliceblue;
+    font-size: 2vh;
+    font-size: 1vw;
+}
+.explore{
+    text-decoration: none;
+    width : 100%;
+    margin-left: 10%;
+    padding: 15px;
+    font-size: 3vh;
+    font-weight: bold;
+    background:none;
+    color: #fff;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+.explore:hover{
+    background-color: #21771e;
+    border-width: 5px;
+}
+.dlink{
+    margin-left: 10%;
+}

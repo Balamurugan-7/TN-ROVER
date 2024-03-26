@@ -1,0 +1,49 @@
+.h0{
+    font-family: cursive;
+    font-size: xx-large;
+    width: 100%;
+    font-weight: bolder;
+    color: aliceblue;
+    margin-bottom: 10%;
+}
+.alog{
+    background: none;
+    color: aliceblue;
+    margin-top: 3%;
+    width: 30%;
+    font-size: larger;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: rgb(124, 0, 0);
+    padding: 3%;
+}
+.alog:hover{
+    border-color: aliceblue;
+    border-width: 5px;
+    transform: scale(1.2);
+    background-color: rgb(138, 7, 7);
+}
+.aform{
+    padding: 4%;
+    border-radius: 30%;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    width: 30%;
+    color: #333;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 15%;
+    margin-left: 30%;
+    box-shadow: 0 0 10px rgb(233, 233, 233);
+}
+.ainput{
+    background-color: transparent;
+    color: #ccc;
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: border-color 0.3s ease-in-out;
+}

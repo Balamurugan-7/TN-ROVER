@@ -1,0 +1,68 @@
+.editplacesec,.editfoodsec{
+    margin : 5%;
+}
+.editactselector{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size:x-large;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(231, 209, 4);
+    margin-bottom:3%;
+}
+#editplace,#editfood{
+    cursor:grab;
+}
+#DBACTIONEDIT{
+    width: 60%;
+}
+#edlist{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid rgb(131, 123, 8);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+/* #editform #opt{
+    color:#686868;
+} */
+.editform input{
+    width: calc(100% - 20px);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(131, 123, 8);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+#eb{
+    width: 10%;
+    color:aliceblue;
+    padding: 10px 8px;
+    text-align: center;
+    background-color: rgb(70, 63, 3);
+    border:#fff;
+    border-width: 5px;
+    box-shadow: 0 0 10px rgb(255, 238, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 25%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
